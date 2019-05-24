@@ -18,13 +18,13 @@ public class StatisticCalcTestSuite {
 
         List<String> usersNames = new ArrayList<String>();
 
-        int userCount = 100;
+        int userCount = 142;
         for(int i =  1; i <= userCount; i++){
             usersNames.add("User_" + i);
         }
 
-        int postsCount = 2534;
-        int commentsCount = 4175;
+        int postsCount = 9751;
+        int commentsCount = 7454;
 
         when(statisticsMock.usersNames()).thenReturn(usersNames);
         when(statisticsMock.postsCount()).thenReturn(postsCount);
@@ -32,12 +32,19 @@ public class StatisticCalcTestSuite {
 
         StatisticsCalc statisticsCalc = new StatisticsCalc(statisticsMock);
 
-        HashMap<String, Double> resultExpected = new HashMap<String, Double>();
-        resultExpected.put("userAvgPosts", 25.34);
-        resultExpected.put("userAvgComments", 41.75);
-        resultExpected.put("postAvgComments", 1.65 );
+        statisticsCalc.calculateAdvStatistics(statisticsMock);
 
-        Assert.assertEquals(resultExpected, statisticsCalc.calculateAdvStatistics(statisticsMock));
+        double userAvgPostsExpected = 68.67;
+        double userAvgPostsActual = statisticsCalc.getUserAvgPosts();
 
+        double userAvgCommentsExpected = 52.49;
+        double userAvgCommentsActual = statisticsCalc.getUserAvgComments();
+
+        double postAvgCommentsExpected = 0.76;
+        double postAvgCommentsActual = statisticsCalc.getPostAvgComments();
+
+        Assert.assertEquals(userAvgPostsExpected,userAvgPostsActual,0);
+        Assert.assertEquals(userAvgCommentsExpected,userAvgCommentsActual,0);
+        Assert.assertEquals(postAvgCommentsExpected,postAvgCommentsActual,0);
     }
 }

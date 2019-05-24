@@ -2,14 +2,14 @@ package com.kodilla.testing.forum.statistics;
 
 import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 
 public class StatisticsCalc {
     Statistics statistics;
-    int usersCount;
-    int postsCount;
-    int commentsCount;
-    int userNamesSize;
+    private int usersCount;
+    private int postsCount;
+    private int commentsCount;
     private double userAvgPosts;
     private double userAvgComments;
     private double postAvgComments;
@@ -18,36 +18,44 @@ public class StatisticsCalc {
         this.statistics = statistics;
     }
 
-    public HashMap<String, Double> calculateAdvStatistics(Statistics statistics) throws  ArithmeticException {
+    public double getUserAvgPosts() {
+        return userAvgPosts;
+    }
 
-        HashMap<String, Double> resultMap = new HashMap<String, Double>();
+    public double getUserAvgComments() {
+        return userAvgComments;
+    }
 
-        double userAvgPosts = 0.00;
+    public double getPostAvgComments() {
+        return postAvgComments;
+    }
+
+    public void calculateAdvStatistics(Statistics statistics) {
+
+        usersCount = statistics.usersNames().size();
+        postsCount = statistics.postsCount();
+        commentsCount = statistics.commentsCount();
+
+        userAvgPosts = 0.00;
         if (statistics.usersNames().size() == 0) {
             userAvgPosts = 0.00;
         } else {
-            userAvgPosts =(double) Math.round((double) statistics.postsCount() / (double) statistics.usersNames().size() * 100) / 100;
+            userAvgPosts =(double) Math.round((double) postsCount / (double) usersCount * 100) / 100;
         }
 
-        double userAvgComments = 0.00;
+        userAvgComments = 0.00;
         if (statistics.usersNames().size() == 0) {
             userAvgComments = 0.00;
         } else {
-            userAvgComments =(double) Math.round((double) statistics.commentsCount() / (double) statistics.usersNames().size() * 100) / 100;
+            userAvgComments =(double) Math.round((double) commentsCount / (double) usersCount * 100) / 100;
         }
 
-        double postAvgComments = 0.00;
+        postAvgComments = 0.00;
         if (statistics.postsCount() == 0) {
             postAvgComments = 0.00;
         } else {
-            postAvgComments =(double) Math.round((double) statistics.commentsCount() / (double) statistics.postsCount() * 100) / 100;
+            postAvgComments =(double) Math.round((double) commentsCount / (double) postsCount * 100) / 100;
         }
-
-        resultMap.put("userAvgPosts", userAvgPosts);
-        resultMap.put("userAvgComments", userAvgComments);
-        resultMap.put("postAvgComments", postAvgComments);
-
-        return resultMap;
     }
 
     public void  showStatistics() {
