@@ -56,8 +56,8 @@ public class ShapeCollectorTestSuite {
         ShapeCollector shapeCollector = new ShapeCollector();
         Circle circle = new Circle();
 
-        shapeCollector.addFigure(circle);
 
+        shapeCollector.addFigure(circle);
         Shape checkCircle;
         checkCircle = shapeCollector.getFigure(0);
 
