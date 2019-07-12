@@ -1,5 +1,6 @@
 package com.kodilla.stream;
 
+import com.kodilla.stream.array.ArrayOperations;
 import com.kodilla.stream.book.Book;
 import com.kodilla.stream.book.BookDirectory;
 import com.kodilla.stream.forumuser.Forum;
@@ -14,17 +15,18 @@ import java.util.stream.Collectors;
 
 public class StreamMain {
     public static void main(String[] args) {
-        Forum forum = new Forum();
+//        Forum forum = new Forum();
+//
+//       Map<Integer, ForumUser> forumUsersMap = forum.getUserList().stream()
+//                .filter(user -> user.getSex() == 'M')
+//                .filter(user -> Period.between(user.getBirthDate(), LocalDate.now()).getYears() >=20)
+//                .filter(user -> user.getPostsCount() > 0)
+//                .collect(Collectors.toMap(ForumUser::getID, user -> user));
+//
+//       forumUsersMap.entrySet().stream()
+//                .map(entry -> entry.getKey() + ": " + entry.getValue())
+//                .forEach(System.out::println);
 
-       Map<Integer, ForumUser> forumUsersMap = forum.getUserList().stream()
-                .filter(user -> user.getSex() == 'M')
-                .filter(user -> Period.between(user.getBirthDate(), LocalDate.now()).getYears() >=20)
-                .filter(user -> user.getPostsCount() > 0)
-                .collect(Collectors.toMap(ForumUser::getID, user -> user));
-
-       forumUsersMap.entrySet().stream()
-                .map(entry -> entry.getKey() + ": " + entry.getValue())
-                .forEach(System.out::println);
 
     }
 }
