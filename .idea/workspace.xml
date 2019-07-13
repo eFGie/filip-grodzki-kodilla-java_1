@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="02835ea0-9b79-4b26-9224-3fa3b07f231d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/kodilla-exception/src/main/java/com/kodilla/exception/io/FileReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/kodilla-exception/src/main/java/com/kodilla/exception/io/FileReader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kodilla-exception/src/main/java/com/kodilla/exception/main/ExceptionModuleRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/kodilla-exception/src/main/java/com/kodilla/exception/main/ExceptionModuleRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kodilla-exception/src/main/java/com/kodilla/exception/test/ExceptionHandling.java" beforeDir="false" afterPath="$PROJECT_DIR$/kodilla-exception/src/main/java/com/kodilla/exception/test/ExceptionHandling.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -64,8 +64,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/kodilla-exception/src/main/java/com/kodilla/exception/test/ExceptionHandling.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+            <state relative-caret-position="204">
+              <caret line="12" column="9" lean-forward="true" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -202,8 +202,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="207" />
-    <option name="y" value="145" />
+    <option name="x" value="165" />
+    <option name="y" value="45" />
     <option name="width" value="1208" />
     <option name="height" value="620" />
   </component>
@@ -488,7 +488,7 @@
       <workItem from="1562088416910" duration="613000" />
       <workItem from="1562859305736" duration="9496000" />
       <workItem from="1562927121676" duration="31104000" />
-      <workItem from="1563006484907" duration="13941000" />
+      <workItem from="1563006484907" duration="14071000" />
     </task>
     <servers />
   </component>
@@ -525,13 +525,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="165139000" />
+    <option name="totallyTimeSpent" value="165269000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="207" y="145" width="1208" height="620" extended-state="0" />
+    <frame x="165" y="45" width="1208" height="620" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2857143" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2857143" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -541,7 +541,7 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.23613963" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.23613963" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39863947" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -1105,8 +1105,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/kodilla-exception/src/main/java/com/kodilla/exception/test/ExceptionHandling.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        <state relative-caret-position="204">
+          <caret line="12" column="9" lean-forward="true" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
         </state>
       </provider>
     </entry>

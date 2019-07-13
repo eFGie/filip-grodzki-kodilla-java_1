@@ -5,13 +5,11 @@ public class ExceptionHandling {
         SecondChallenge secondChallenge = new SecondChallenge();
 
         try {
-
             System.out.println(secondChallenge.probablyIWillThrowException(2,5.5));
-
         } catch (Exception e) {
-
             System.out.println(e.toString());
-
+        } finally {
+            System.out.println("finally");
         }
     }
 }
