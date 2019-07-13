@@ -9,7 +9,7 @@ import java.nio.file.Paths;
 import java.util.stream.Stream;
 
 public class FileReader {
-    public void readFile() {
+    public void readFile() throws FileReaderException {
         ClassLoader classLodaer = getClass().getClassLoader();
         File file = new File(classLodaer.getResource("file/names.txt").getFile());
 
@@ -19,7 +19,7 @@ public class FileReader {
 
         } catch (IOException e) {
 
-            System.out.println("exception" + e);
+            throw new FileReaderException();
 
         } finally {
 

@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="02835ea0-9b79-4b26-9224-3fa3b07f231d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/kodilla-exception/src/main/java/com/kodilla/exception/test/FirstChallenge.java" beforeDir="false" afterPath="$PROJECT_DIR$/kodilla-exception/src/main/java/com/kodilla/exception/test/FirstChallenge.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kodilla-exception/src/main/java/com/kodilla/exception/io/FileReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/kodilla-exception/src/main/java/com/kodilla/exception/io/FileReader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kodilla-exception/src/main/java/com/kodilla/exception/main/ExceptionModuleRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/kodilla-exception/src/main/java/com/kodilla/exception/main/ExceptionModuleRunner.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -42,8 +43,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/kodilla-exception/src/main/java/com/kodilla/exception/io/FileReader.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="193">
-              <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+            <state relative-caret-position="114">
+              <caret line="19" column="6" lean-forward="true" selection-start-line="19" selection-start-column="6" selection-end-line="27" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -51,11 +52,41 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/kodilla-exception/src/main/java/com/kodilla/exception/test/SecondChallenge.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="34" lean-forward="true" selection-start-line="5" selection-start-column="34" selection-end-line="5" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/kodilla-exception/src/main/java/com/kodilla/exception/test/ExceptionHandling.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/kodilla-exception/src/main/java/com/kodilla/exception/io/FileReaderWithoutHandling.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="168">
+              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/kodilla-exception/src/main/java/com/kodilla/exception/test/FirstChallenge.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+            <state relative-caret-position="352">
+              <caret line="28" column="9" lean-forward="true" selection-start-line="28" selection-start-column="9" selection-end-line="28" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -63,8 +94,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/kodilla-exception/src/main/java/com/kodilla/exception/main/ExceptionModuleRunner.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="82">
-              <caret line="9" selection-start-line="9" selection-end-line="9" />
+            <state relative-caret-position="114">
+              <caret line="11" column="7" lean-forward="true" selection-start-line="11" selection-start-column="7" selection-end-line="13" selection-end-column="10" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/kodilla-exception/src/main/java/com/kodilla/exception/io/FileReaderException.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="50" selection-start-line="2" selection-start-column="50" selection-end-line="2" selection-end-column="50" />
             </state>
           </provider>
         </entry>
@@ -104,10 +147,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/kodilla-testing/src/main/java/com/kodilla/testing/library/BookLibrary.java" />
-        <option value="$PROJECT_DIR$/kodilla-testing/src/test/java/com/kodilla/testing/library/BookDirectoryTestSuite.java" />
-        <option value="$PROJECT_DIR$/kodilla-testing/src/test/java/com/kodilla/testing/weather/mock/WeatherForecastTestSuite.java" />
-        <option value="$PROJECT_DIR$/kodilla-stream/src/main/java/com/kodilla/stream/lambda/SaySomething.java" />
         <option value="$PROJECT_DIR$/kodilla-stream/src/main/java/com/kodilla/stream/lambda/Executor.java" />
         <option value="$PROJECT_DIR$/kodilla-stream/src/main/java/com/kodilla/stream/lambda/ExecuteSaySomething.java" />
         <option value="$PROJECT_DIR$/kodilla-stream/src/main/java/com/kodilla/stream/lambda/Processor.java" />
@@ -152,15 +191,19 @@
         <option value="$PROJECT_DIR$/kodilla-stream/src/main/java/com/kodilla/stream/portfolio/Board.java" />
         <option value="$PROJECT_DIR$/kodilla-stream/src/test/java/com/kodilla/stream/portfolio/BoardTestSuite.java" />
         <option value="$PROJECT_DIR$/kodilla-exception/src/main/resources/file/names.txt" />
-        <option value="$PROJECT_DIR$/kodilla-exception/src/main/java/com/kodilla/exception/main/ExceptionModuleRunner.java" />
-        <option value="$PROJECT_DIR$/kodilla-exception/src/main/java/com/kodilla/exception/io/FileReader.java" />
         <option value="$PROJECT_DIR$/kodilla-exception/src/main/java/com/kodilla/exception/test/FirstChallenge.java" />
+        <option value="$PROJECT_DIR$/kodilla-exception/src/main/java/com/kodilla/exception/io/FileReaderWithoutHandling.java" />
+        <option value="$PROJECT_DIR$/kodilla-exception/src/main/java/com/kodilla/exception/io/FileReaderException.java" />
+        <option value="$PROJECT_DIR$/kodilla-exception/src/main/java/com/kodilla/exception/io/FileReader.java" />
+        <option value="$PROJECT_DIR$/kodilla-exception/src/main/java/com/kodilla/exception/main/ExceptionModuleRunner.java" />
+        <option value="$PROJECT_DIR$/kodilla-exception/src/main/java/com/kodilla/exception/test/SecondChallenge.java" />
+        <option value="$PROJECT_DIR$/kodilla-exception/src/main/java/com/kodilla/exception/test/ExceptionHandling.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="80" />
-    <option name="y" value="110" />
+    <option name="x" value="207" />
+    <option name="y" value="145" />
     <option name="width" value="1208" />
     <option name="height" value="620" />
   </component>
@@ -327,7 +370,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.FirstChallenge">
+  <component name="RunManager" selected="Application.ExceptionHandling">
+    <configuration name="ExceptionHandling" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.kodilla.exception.test.ExceptionHandling" />
+      <module name="kodilla-exception_main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.kodilla.exception.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ExceptionModuleRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.kodilla.exception.main.ExceptionModuleRunner" />
       <module name="kodilla-exception_main" />
@@ -386,22 +442,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BoardTestSuite.testAddTaskListFindUsersTasks" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="kodilla-stream_test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.kodilla.stream.portfolio.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.kodilla.stream.portfolio" />
-      <option name="MAIN_CLASS_NAME" value="com.kodilla.stream.portfolio.BoardTestSuite" />
-      <option name="METHOD_NAME" value="testAddTaskListFindUsersTasks" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="KodillaCourseApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="kodilla-course_main" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.kodilla.KodillaCourseApplication" />
@@ -411,11 +451,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ExceptionHandling" />
         <item itemvalue="Application.FirstChallenge" />
         <item itemvalue="Application.ExceptionModuleRunner" />
         <item itemvalue="JUnit.BoardTestSuite.testAddTaskListAverageWorkingOnTask" />
         <item itemvalue="JUnit.BoardTestSuite.testAddTaskListFindLongTasks" />
-        <item itemvalue="JUnit.BoardTestSuite.testAddTaskListFindUsersTasks" />
       </list>
     </recent_temporary>
   </component>
@@ -448,7 +488,7 @@
       <workItem from="1562088416910" duration="613000" />
       <workItem from="1562859305736" duration="9496000" />
       <workItem from="1562927121676" duration="31104000" />
-      <workItem from="1563006484907" duration="7064000" />
+      <workItem from="1563006484907" duration="13941000" />
     </task>
     <servers />
   </component>
@@ -485,13 +525,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="158262000" />
+    <option name="totallyTimeSpent" value="165139000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="80" y="110" width="1208" height="620" extended-state="0" />
+    <frame x="207" y="145" width="1208" height="620" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2857143" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2857143" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -501,7 +541,7 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.23613963" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.23613963" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39863947" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -544,28 +584,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/kodilla-stream/src/main/java/com/kodilla/stream/beautifier/PoemMain.java" />
-    <entry file="file://$PROJECT_DIR$/kodilla-stream/src/main/java/com/kodilla/stream/lambda/MathExpression.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="1" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/kodilla-stream/src/main/java/com/kodilla/stream/lambda/ExpressionExecutor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="43" selection-start-line="4" selection-start-column="43" selection-end-line="4" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/kodilla-stream/src/main/java/com/kodilla/stream/lambda/Executor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/kodilla-stream/src/main/java/com/kodilla/stream/lambda/ExecuteSaySomething.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -1034,17 +1052,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/kodilla-exception/src/main/java/com/kodilla/exception/main/ExceptionModuleRunner.java">
+    <entry file="file://$PROJECT_DIR$/kodilla-exception/src/main/java/com/kodilla/exception/io/FileReaderWithoutHandling.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="82">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        <state relative-caret-position="168">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kodilla-exception/src/main/java/com/kodilla/exception/io/FileReaderException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="50" selection-start-line="2" selection-start-column="50" selection-end-line="2" selection-end-column="50" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/kodilla-exception/src/main/java/com/kodilla/exception/io/FileReader.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="193">
-          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+        <state relative-caret-position="114">
+          <caret line="19" column="6" lean-forward="true" selection-start-line="19" selection-start-column="6" selection-end-line="27" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kodilla-exception/src/main/java/com/kodilla/exception/main/ExceptionModuleRunner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="11" column="7" lean-forward="true" selection-start-line="11" selection-start-column="7" selection-end-line="13" selection-end-column="10" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1053,8 +1091,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/kodilla-exception/src/main/java/com/kodilla/exception/test/FirstChallenge.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+        <state relative-caret-position="352">
+          <caret line="28" column="9" lean-forward="true" selection-start-line="28" selection-start-column="9" selection-end-line="28" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kodilla-exception/src/main/java/com/kodilla/exception/test/SecondChallenge.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="34" lean-forward="true" selection-start-line="5" selection-start-column="34" selection-end-line="5" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kodilla-exception/src/main/java/com/kodilla/exception/test/ExceptionHandling.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
         </state>
       </provider>
     </entry>
