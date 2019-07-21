@@ -13,7 +13,7 @@ public class FlightApplication {
         List<DirectFlight> directFlights = DirectFlightsRegister.geList();
 
         List<DirectFlight> departureAirportToFindInDirect = directFlights.stream()
-                .filter(p -> p.getDepartureAirport().contains(departureAirportToFind))
+                .filter(p -> p.getDepartureAirport().equals(departureAirportToFind))
                 .collect(Collectors.toList());
         System.out.println(departureAirportToFindInDirect);
 
@@ -21,7 +21,7 @@ public class FlightApplication {
         List<FlightWithOneStop> flightsWihOneStop = FlightsWihOneStopRegister.geList();
 
         List<FlightWithOneStop> departureAirportToFindInOneStopFlights = flightsWihOneStop.stream()
-                .filter(p -> p.getDepartureAirport().contains(departureAirportToFind))
+                .filter(p -> p.getDepartureAirport().equals(departureAirportToFind))
                 .collect(Collectors.toList());
         System.out.println(departureAirportToFindInOneStopFlights);
 
@@ -31,12 +31,12 @@ public class FlightApplication {
         String arrivalAirportToFind = "GDAŃSK";
 
         List<DirectFlight> arrivalAirportToFindInDirect = directFlights.stream()
-                .filter(p -> p.getArrivalAirport().contains(arrivalAirportToFind))
+                .filter(p -> p.getArrivalAirport().equals(arrivalAirportToFind))
                 .collect(Collectors.toList());
         System.out.println(arrivalAirportToFindInDirect);
 
         List<FlightWithOneStop> arrivalAirportToFindInOneStopFlights = flightsWihOneStop.stream()
-                .filter(p -> p.getArrivalAirport().contains(arrivalAirportToFind))
+                .filter(p -> p.getArrivalAirport().equals(arrivalAirportToFind))
                 .collect(Collectors.toList());
         System.out.println(arrivalAirportToFindInOneStopFlights);
 
@@ -44,8 +44,8 @@ public class FlightApplication {
 
         //Znalezienie lotów poprzez inne miasto np. lot z Gdańska przez Kraków do Wrocławia
         List<FlightWithOneStop> IntermediateFlightsoFindInOneStopFlights = flightsWihOneStop.stream()
-                .filter(p -> p.getDepartureAirport().contains(departureAirportToFind)
-                        && p.getArrivalAirport().contains(arrivalAirportToFind))
+                .filter(p -> p.getDepartureAirport().equals(departureAirportToFind)
+                        && p.getArrivalAirport().equals(arrivalAirportToFind))
                 .collect(Collectors.toList());
         System.out.println(IntermediateFlightsoFindInOneStopFlights);
     }
