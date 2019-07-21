@@ -4,7 +4,6 @@ import java.time.LocalDateTime;
 
 public class OrderRquest {
     private User user;
- //   private Product product;
     private LocalDateTime orderCreateDateTime;
 
     public OrderRquest(final User user, final LocalDateTime orderCreateDateTime) {

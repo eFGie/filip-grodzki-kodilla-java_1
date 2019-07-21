@@ -2,8 +2,8 @@ package com.kodilla.good.patterns.challenges;
 
 public class OrderDto {
 
-    public User user;
-    public boolean isBought;
+    private User user;
+    private boolean isBought;
 
     public OrderDto(final User user, final boolean isBought) {
         this.user = user;
