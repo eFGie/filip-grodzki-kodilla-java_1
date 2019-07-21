@@ -15,7 +15,7 @@ public final class DirectFlightsRegister {
         theList.add(new DirectFlight(5,"WROCŁAW","BARCELONA"));
         theList.add(new DirectFlight(6,"MADRYT","WROCŁAW"));
         theList.add(new DirectFlight(7,"WARSZAWA","BARCELONA"));
-
+        theList.add(new DirectFlight(8,"BARCELONA","GDAŃSK"));
         return new ArrayList<DirectFlight>(theList);
     }
 }

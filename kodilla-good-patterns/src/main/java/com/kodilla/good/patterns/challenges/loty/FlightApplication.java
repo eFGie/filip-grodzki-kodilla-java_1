@@ -17,16 +17,6 @@ public class FlightApplication {
                 .collect(Collectors.toList());
         System.out.println(departureAirportToFindInDirect);
 
-
-        List<FlightWithOneStop> flightsWihOneStop = FlightsWihOneStopRegister.geList();
-
-        List<FlightWithOneStop> departureAirportToFindInOneStopFlights = flightsWihOneStop.stream()
-                .filter(p -> p.getDepartureAirport().equals(departureAirportToFind))
-                .collect(Collectors.toList());
-        System.out.println(departureAirportToFindInOneStopFlights);
-
-        System.out.println();
-
         //Znalezienie wszystkich lotów do danego miasta
         String arrivalAirportToFind = "GDAŃSK";
 
@@ -35,18 +25,17 @@ public class FlightApplication {
                 .collect(Collectors.toList());
         System.out.println(arrivalAirportToFindInDirect);
 
-        List<FlightWithOneStop> arrivalAirportToFindInOneStopFlights = flightsWihOneStop.stream()
-                .filter(p -> p.getArrivalAirport().equals(arrivalAirportToFind))
-                .collect(Collectors.toList());
-        System.out.println(arrivalAirportToFindInOneStopFlights);
-
         System.out.println();
 
-        //Znalezienie lotów poprzez inne miasto np. lot z Gdańska przez Kraków do Wrocławia
-        List<FlightWithOneStop> IntermediateFlightsoFindInOneStopFlights = flightsWihOneStop.stream()
-                .filter(p -> p.getDepartureAirport().equals(departureAirportToFind)
-                        && p.getArrivalAirport().equals(arrivalAirportToFind))
-                .collect(Collectors.toList());
-        System.out.println(IntermediateFlightsoFindInOneStopFlights);
+        //Znalezienie lotów z Gdańska do Wrocławia poprzez inne miasto
+        for(DirectFlight depFlight : departureAirportToFindInDirect) {
+            for (DirectFlight arrFlight : arrivalAirportToFindInDirect) {
+                if(depFlight.getArrivalAirport() == arrFlight.getDepartureAirport()) {
+                    System.out.println(depFlight.getDepartureAirport() + " - " + depFlight.getArrivalAirport());
+                    System.out.println(arrFlight.getDepartureAirport() + " - " + arrFlight.getArrivalAirport());
+                }
+            }
+        }
+
     }
 }
