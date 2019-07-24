@@ -23,7 +23,7 @@
 <tr>
 <td>
 <div class="infoBox" id="tests">
-<div class="counter">1</div>
+<div class="counter">4</div>
 <p>tests</p>
 </div>
 </td>
@@ -41,7 +41,7 @@
 </td>
 <td>
 <div class="infoBox" id="duration">
-<div class="counter">0.218s</div>
+<div class="counter">0.282s</div>
 <p>duration</p>
 </div>
 </td>
@@ -78,8 +78,23 @@
 </tr>
 </thead>
 <tr>
-<td class="success">contextLoads</td>
-<td class="success">0.218s</td>
+<td class="success">testCircleLoadedIntoContainer</td>
+<td class="success">0.073s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testShapeLoadedIntoContainer</td>
+<td class="success">0.069s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testSquareLoadedIntoContainer</td>
+<td class="success">0.071s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testTriangleLoadedIntoContainer</td>
+<td class="success">0.069s</td>
 <td class="success">passed</td>
 </tr>
 </table>
@@ -87,45 +102,13 @@
 <div id="tab1" class="tab">
 <h2>Standard output</h2>
 <span class="code">
-<pre>16:57:55.525 [Test worker] DEBUG org.springframework.test.context.junit4.SpringJUnit4ClassRunner - SpringJUnit4ClassRunner constructor called with [class com.kodilla.spring.SpringRunnerTestSuite]
-16:57:55.531 [Test worker] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
-16:57:55.538 [Test worker] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
-16:57:55.552 [Test worker] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating TestContextBootstrapper for test class [com.kodilla.spring.SpringRunnerTestSuite] from class [org.springframework.boot.test.context.SpringBootTestContextBootstrapper]
-16:57:55.561 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.kodilla.spring.SpringRunnerTestSuite], using SpringBootContextLoader
-16:57:55.564 [Test worker] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.kodilla.spring.SpringRunnerTestSuite]: class path resource [com/kodilla/spring/SpringRunnerTestSuite-context.xml] does not exist
-16:57:55.564 [Test worker] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.kodilla.spring.SpringRunnerTestSuite]: class path resource [com/kodilla/spring/SpringRunnerTestSuiteContext.groovy] does not exist
-16:57:55.564 [Test worker] INFO org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [com.kodilla.spring.SpringRunnerTestSuite]: no resource found for suffixes {-context.xml, Context.groovy}.
-16:57:55.565 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.kodilla.spring.SpringRunnerTestSuite]: SpringRunnerTestSuite does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
-16:57:55.596 [Test worker] DEBUG org.springframework.test.context.support.ActiveProfilesUtils - Could not find an 'annotation declaring class' for annotation type [org.springframework.test.context.ActiveProfiles] and class [com.kodilla.spring.SpringRunnerTestSuite]
-16:57:55.652 [Test worker] DEBUG org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider - Identified candidate component class: file [C:\Users\fgrodzki\IdeaProjects\kodilla-course\kodilla-spring\build\classes\java\main\com\kodilla\spring\SpringRunner.class]
-16:57:55.654 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.kodilla.spring.SpringRunner for test class com.kodilla.spring.SpringRunnerTestSuite
-16:57:55.734 [Test worker] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - @TestExecutionListeners is not present for class [com.kodilla.spring.SpringRunnerTestSuite]: using defaults.
-16:57:55.734 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
-16:57:55.740 [Test worker] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Skipping candidate TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener] due to a missing dependency. Specify custom listener classes or make the default listener classes and their required dependencies available. Offending class: [javax/servlet/ServletContext]
-16:57:55.741 [Test worker] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Skipping candidate TestExecutionListener [org.springframework.test.context.transaction.TransactionalTestExecutionListener] due to a missing dependency. Specify custom listener classes or make the default listener classes and their required dependencies available. Offending class: [org/springframework/transaction/interceptor/TransactionAttributeSource]
-16:57:55.742 [Test worker] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Skipping candidate TestExecutionListener [org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener] due to a missing dependency. Specify custom listener classes or make the default listener classes and their required dependencies available. Offending class: [org/springframework/transaction/interceptor/TransactionAttribute]
-16:57:55.742 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@3856e5e, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@4697a96c, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@7140e81b, org.springframework.test.context.support.DirtiesContextTestExecutionListener@71d90a81, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@59867d7a, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@222163ef, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@54d75780, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@6d63c299, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@7641fe2]
-16:57:55.744 [Test worker] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.kodilla.spring.SpringRunnerTestSuite]
-16:57:55.744 [Test worker] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.kodilla.spring.SpringRunnerTestSuite]
-16:57:55.745 [Test worker] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.kodilla.spring.SpringRunnerTestSuite]
-16:57:55.745 [Test worker] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.kodilla.spring.SpringRunnerTestSuite]
-16:57:55.748 [Test worker] DEBUG org.springframework.test.context.support.AbstractDirtiesContextTestExecutionListener - Before test class: context [DefaultTestContext@2465ff10 testClass = SpringRunnerTestSuite, testInstance = [null], testMethod = [null], testException = [null], mergedContextConfiguration = [MergedContextConfiguration@2f4a5704 testClass = SpringRunnerTestSuite, locations = '{}', classes = '{class com.kodilla.spring.SpringRunner}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@9c7644, org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@ebdd98, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@206915cf, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@a23744c], contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map[[empty]]], class annotated with @DirtiesContext [false] with mode [null].
-16:57:55.749 [Test worker] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.kodilla.spring.SpringRunnerTestSuite]
-16:57:55.749 [Test worker] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.kodilla.spring.SpringRunnerTestSuite]
-16:57:55.752 [Test worker] DEBUG org.springframework.test.context.support.DependencyInjectionTestExecutionListener - Performing dependency injection for test context [[DefaultTestContext@2465ff10 testClass = SpringRunnerTestSuite, testInstance = com.kodilla.spring.SpringRunnerTestSuite@3aabe30a, testMethod = [null], testException = [null], mergedContextConfiguration = [MergedContextConfiguration@2f4a5704 testClass = SpringRunnerTestSuite, locations = '{}', classes = '{class com.kodilla.spring.SpringRunner}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@9c7644, org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@ebdd98, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@206915cf, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@a23744c], contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map[[empty]]]].
-16:57:55.766 [Test worker] DEBUG org.springframework.test.context.support.TestPropertySourceUtils - Adding inlined properties to environment: {spring.jmx.enabled=false, org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true, server.port=-1}
-
-  .   ____          _            __ _ _
- /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
-( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
- \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
-  '  |____| .__|_| |_|_| |_\__, | / / / /
- =========|_|==============|___/=/_/_/_/
- :: Spring Boot ::        (v2.1.4.RELEASE)
-
-2019-07-22 16:57:55.932  INFO 17980 --- [    Test worker] c.kodilla.spring.SpringRunnerTestSuite   : Starting SpringRunnerTestSuite on XTBK-2670 with PID 17980 (started by fgrodzki in C:\Users\fgrodzki\IdeaProjects\kodilla-course\kodilla-spring)
-2019-07-22 16:57:55.933  INFO 17980 --- [    Test worker] c.kodilla.spring.SpringRunnerTestSuite   : No active profile set, falling back to default profiles: default
-2019-07-22 16:57:56.255  INFO 17980 --- [    Test worker] c.kodilla.spring.SpringRunnerTestSuite   : Started SpringRunnerTestSuite in 0.487 seconds (JVM running for 1.324)
+<pre>2019-07-23 17:10:25.530  INFO 19188 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.kodilla.spring.SpringRunnerTestSuite], using SpringBootContextLoader
+2019-07-23 17:10:25.531  INFO 19188 --- [    Test worker] o.s.t.c.support.AbstractContextLoader    : Could not detect default resource locations for test class [com.kodilla.spring.SpringRunnerTestSuite]: no resource found for suffixes {-context.xml, Context.groovy}.
+2019-07-23 17:10:25.531  INFO 19188 --- [    Test worker] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.kodilla.spring.SpringRunnerTestSuite]: SpringRunnerTestSuite does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2019-07-23 17:10:25.536  INFO 19188 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.kodilla.spring.SpringRunner for test class com.kodilla.spring.SpringRunnerTestSuite
+2019-07-23 17:10:25.539  INFO 19188 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2019-07-23 17:10:25.540  INFO 19188 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@2b8bfd72, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@1196e21a, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@1b41f630, org.springframework.test.context.support.DirtiesContextTestExecutionListener@4ba6c556, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@3f32d13d, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@199262f3, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@d76e787, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@70071f0a, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@5915830e]
+Chosen shape says: This is a circle.
 </pre>
 </span>
 </div>
@@ -137,7 +120,7 @@
 <input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
 </label>
 </div>Generated by 
-<a href="http://www.gradle.org">Gradle 5.4.1</a> at Jul 22, 2019 4:57:56 PM</p>
+<a href="http://www.gradle.org">Gradle 5.4.1</a> at Jul 23, 2019 5:10:25 PM</p>
 </div>
 </div>
 </body>
