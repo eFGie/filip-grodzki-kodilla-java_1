@@ -28,19 +28,19 @@ public class BoardConfig {
     }
 
     @Bean(name = "toDoList")
-   // @Scope("prototype")
+    @Scope("prototype")
     public TaskList getToDoList() {
         return new TaskList();
     }
 
     @Bean(name = "inProgressList")
-   // @Scope("prototype")
+    @Scope("prototype")
     public TaskList inProgressList() {
         return new TaskList();
     }
 
     @Bean(name = "doneList")
-   // @Scope("prototype")
+    @Scope("prototype")
     public TaskList doneList() {
         return new TaskList();
     }
