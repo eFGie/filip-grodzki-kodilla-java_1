@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="02835ea0-9b79-4b26-9224-3fa3b07f231d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kodilla-patterns/out/test/classes/META-INF/kodilla-patterns_main.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/kodilla-patterns/out/test/classes/META-INF/kodilla-patterns_main.kotlin_module" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -82,34 +80,48 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.UserTestSuite">
-    <configuration name="CustomerTestSuite.testDefaultInvestingStrategies" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.TaskFactoryTestSuite">
+    <configuration name="ShapeFactoryTestSuite" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="kodilla-patterns_test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.kodilla.patterns.strategy.*" />
+          <option name="PATTERN" value="com.kodilla.patterns.factory.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.kodilla.patterns.strategy" />
-      <option name="MAIN_CLASS_NAME" value="com.kodilla.patterns.strategy.CustomerTestSuite" />
-      <option name="METHOD_NAME" value="testDefaultInvestingStrategies" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="PACKAGE_NAME" value="com.kodilla.patterns.factory" />
+      <option name="MAIN_CLASS_NAME" value="com.kodilla.patterns.factory.ShapeFactoryTestSuite" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CustomerTestSuite.testIndividualInvestingStrategy" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TaskFactoryTestSuite" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="kodilla-patterns_test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.kodilla.patterns.strategy.*" />
+          <option name="PATTERN" value="com.kodilla.patterns.factory.tasks.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.kodilla.patterns.strategy" />
-      <option name="MAIN_CLASS_NAME" value="com.kodilla.patterns.strategy.CustomerTestSuite" />
-      <option name="METHOD_NAME" value="testIndividualInvestingStrategy" />
+      <option name="PACKAGE_NAME" value="com.kodilla.patterns.factory.tasks" />
+      <option name="MAIN_CLASS_NAME" value="com.kodilla.patterns.factory.tasks.TaskFactoryTestSuite" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TaskFactoryTestSuite.testFactoryShoppingTask" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="kodilla-patterns_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.kodilla.patterns.factory.tasks.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.kodilla.patterns.factory.tasks" />
+      <option name="MAIN_CLASS_NAME" value="com.kodilla.patterns.factory.tasks.TaskFactoryTestSuite" />
+      <option name="METHOD_NAME" value="testFactoryShoppingTask" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -126,22 +138,6 @@
       <option name="PACKAGE_NAME" value="com.kodilla.patterns.social" />
       <option name="MAIN_CLASS_NAME" value="com.kodilla.patterns.social.UserTestSuite" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="UserTestSuite.testDefaultSharingStrategies" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="kodilla-patterns_test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.kodilla.patterns.social.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.kodilla.patterns.social" />
-      <option name="MAIN_CLASS_NAME" value="com.kodilla.patterns.social.UserTestSuite" />
-      <option name="METHOD_NAME" value="testDefaultSharingStrategies" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -185,11 +181,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TaskFactoryTestSuite" />
+        <item itemvalue="JUnit.TaskFactoryTestSuite.testFactoryShoppingTask" />
+        <item itemvalue="JUnit.ShapeFactoryTestSuite" />
         <item itemvalue="JUnit.UserTestSuite" />
         <item itemvalue="JUnit.UserTestSuite.testIndividualSharingStrategy" />
-        <item itemvalue="JUnit.UserTestSuite.testDefaultSharingStrategies" />
-        <item itemvalue="JUnit.CustomerTestSuite.testIndividualInvestingStrategy" />
-        <item itemvalue="JUnit.CustomerTestSuite.testDefaultInvestingStrategies" />
       </list>
     </recent_temporary>
   </component>
@@ -232,7 +228,7 @@
       <workItem from="1563990521521" duration="907000" />
       <workItem from="1564074862355" duration="7593000" />
       <workItem from="1564132638457" duration="4423000" />
-      <workItem from="1564388154472" duration="6670000" />
+      <workItem from="1564388154472" duration="13795000" />
     </task>
     <servers />
   </component>
