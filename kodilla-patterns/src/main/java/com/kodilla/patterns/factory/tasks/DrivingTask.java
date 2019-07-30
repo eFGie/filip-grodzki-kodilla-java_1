@@ -4,6 +4,7 @@ public class DrivingTask implements Task {
     final String taskName;
     final String where;
     final String using;
+    boolean isTaskExecuted;
 
     public DrivingTask(String taskName, String where, String using) {
         this.taskName = taskName;
@@ -11,8 +12,8 @@ public class DrivingTask implements Task {
         this.using = using;
     }
 
-    public String executeTask() {
-        return "Executing DrivingTask";
+    public void executeTask() {
+        isTaskExecuted = true;
     }
 
     public String getTaskName() {
@@ -20,6 +21,6 @@ public class DrivingTask implements Task {
     }
 
     public boolean isTaskExecuted(){
-        return true;
+        return isTaskExecuted;
     }
 }

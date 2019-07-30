@@ -3,6 +3,16 @@
   <component name="ChangeListManager">
     <list default="true" id="02835ea0-9b79-4b26-9224-3fa3b07f231d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kodilla-patterns/out/production/classes/com/kodilla/patterns/factory/tasks/DrivingTask.class" beforeDir="false" afterPath="$PROJECT_DIR$/kodilla-patterns/out/production/classes/com/kodilla/patterns/factory/tasks/DrivingTask.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kodilla-patterns/out/production/classes/com/kodilla/patterns/factory/tasks/PaintingTask.class" beforeDir="false" afterPath="$PROJECT_DIR$/kodilla-patterns/out/production/classes/com/kodilla/patterns/factory/tasks/PaintingTask.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kodilla-patterns/out/production/classes/com/kodilla/patterns/factory/tasks/ShoppingTask.class" beforeDir="false" afterPath="$PROJECT_DIR$/kodilla-patterns/out/production/classes/com/kodilla/patterns/factory/tasks/ShoppingTask.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kodilla-patterns/out/production/classes/com/kodilla/patterns/factory/tasks/Task.class" beforeDir="false" afterPath="$PROJECT_DIR$/kodilla-patterns/out/production/classes/com/kodilla/patterns/factory/tasks/Task.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kodilla-patterns/out/test/classes/com/kodilla/patterns/factory/tasks/TaskFactoryTestSuite.class" beforeDir="false" afterPath="$PROJECT_DIR$/kodilla-patterns/out/test/classes/com/kodilla/patterns/factory/tasks/TaskFactoryTestSuite.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kodilla-patterns/src/main/java/com/kodilla/patterns/factory/tasks/DrivingTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/kodilla-patterns/src/main/java/com/kodilla/patterns/factory/tasks/DrivingTask.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kodilla-patterns/src/main/java/com/kodilla/patterns/factory/tasks/PaintingTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/kodilla-patterns/src/main/java/com/kodilla/patterns/factory/tasks/PaintingTask.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kodilla-patterns/src/main/java/com/kodilla/patterns/factory/tasks/ShoppingTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/kodilla-patterns/src/main/java/com/kodilla/patterns/factory/tasks/ShoppingTask.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kodilla-patterns/src/main/java/com/kodilla/patterns/factory/tasks/Task.java" beforeDir="false" afterPath="$PROJECT_DIR$/kodilla-patterns/src/main/java/com/kodilla/patterns/factory/tasks/Task.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kodilla-patterns/src/test/java/com/kodilla/patterns/factory/tasks/TaskFactoryTestSuite.java" beforeDir="false" afterPath="$PROJECT_DIR$/kodilla-patterns/src/test/java/com/kodilla/patterns/factory/tasks/TaskFactoryTestSuite.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -111,6 +121,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TaskFactoryTestSuite.testFactoryPaintingTask" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="kodilla-patterns_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.kodilla.patterns.factory.tasks.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.kodilla.patterns.factory.tasks" />
+      <option name="MAIN_CLASS_NAME" value="com.kodilla.patterns.factory.tasks.TaskFactoryTestSuite" />
+      <option name="METHOD_NAME" value="testFactoryPaintingTask" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TaskFactoryTestSuite.testFactoryShoppingTask" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="kodilla-patterns_test" />
       <extension name="coverage">
@@ -142,22 +168,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserTestSuite.testIndividualSharingStrategy" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="kodilla-patterns_test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.kodilla.patterns.social.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.kodilla.patterns.social" />
-      <option name="MAIN_CLASS_NAME" value="com.kodilla.patterns.social.UserTestSuite" />
-      <option name="METHOD_NAME" value="testIndividualSharingStrategy" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="KodillaCourseApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="kodilla-course_main" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.kodilla.KodillaCourseApplication" />
@@ -182,10 +192,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.TaskFactoryTestSuite" />
+        <item itemvalue="JUnit.TaskFactoryTestSuite.testFactoryPaintingTask" />
         <item itemvalue="JUnit.TaskFactoryTestSuite.testFactoryShoppingTask" />
         <item itemvalue="JUnit.ShapeFactoryTestSuite" />
         <item itemvalue="JUnit.UserTestSuite" />
-        <item itemvalue="JUnit.UserTestSuite.testIndividualSharingStrategy" />
       </list>
     </recent_temporary>
   </component>
@@ -228,7 +238,8 @@
       <workItem from="1563990521521" duration="907000" />
       <workItem from="1564074862355" duration="7593000" />
       <workItem from="1564132638457" duration="4423000" />
-      <workItem from="1564388154472" duration="13795000" />
+      <workItem from="1564388154472" duration="15495000" />
+      <workItem from="1564473400488" duration="3589000" />
     </task>
     <servers />
   </component>
