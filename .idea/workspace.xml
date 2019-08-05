@@ -2,7 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="02835ea0-9b79-4b26-9224-3fa3b07f231d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/vcs-1/gc.properties(1)" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -80,7 +88,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.BigmacTestSuite.testPizzaNew">
+  <component name="RunManager" selected="JUnit.DbManagerTestSuite.testSelectUsersAndPosts">
     <configuration name="BigmacTestSuite.testPizzaNew" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="kodilla-patterns_test" />
       <extension name="coverage">
@@ -97,17 +105,50 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ShapeFactoryTestSuite" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="kodilla-patterns_test" />
+    <configuration name="DbManagerTestSuite.testConnect" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="kodilla-jdbc_test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.kodilla.patterns.factory.*" />
+          <option name="PATTERN" value="com.kodilla.jdbc.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.kodilla.patterns.factory" />
-      <option name="MAIN_CLASS_NAME" value="com.kodilla.patterns.factory.ShapeFactoryTestSuite" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="com.kodilla.jdbc" />
+      <option name="MAIN_CLASS_NAME" value="com.kodilla.jdbc.DbManagerTestSuite" />
+      <option name="METHOD_NAME" value="testConnect" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DbManagerTestSuite.testSelectUsers" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="kodilla-jdbc_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.kodilla.jdbc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.kodilla.jdbc" />
+      <option name="MAIN_CLASS_NAME" value="com.kodilla.jdbc.DbManagerTestSuite" />
+      <option name="METHOD_NAME" value="testSelectUsers" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DbManagerTestSuite.testSelectUsersAndPosts" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="kodilla-jdbc_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.kodilla.jdbc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.kodilla.jdbc" />
+      <option name="MAIN_CLASS_NAME" value="com.kodilla.jdbc.DbManagerTestSuite" />
+      <option name="METHOD_NAME" value="testSelectUsersAndPosts" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -123,38 +164,6 @@
       <option name="PACKAGE_NAME" value="com.kodilla.patterns.factory.tasks" />
       <option name="MAIN_CLASS_NAME" value="com.kodilla.patterns.factory.tasks.TaskFactoryTestSuite" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TaskFactoryTestSuite.testFactoryPaintingTask" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="kodilla-patterns_test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.kodilla.patterns.factory.tasks.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.kodilla.patterns.factory.tasks" />
-      <option name="MAIN_CLASS_NAME" value="com.kodilla.patterns.factory.tasks.TaskFactoryTestSuite" />
-      <option name="METHOD_NAME" value="testFactoryPaintingTask" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TaskFactoryTestSuite.testFactoryShoppingTask" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="kodilla-patterns_test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.kodilla.patterns.factory.tasks.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.kodilla.patterns.factory.tasks" />
-      <option name="MAIN_CLASS_NAME" value="com.kodilla.patterns.factory.tasks.TaskFactoryTestSuite" />
-      <option name="METHOD_NAME" value="testFactoryShoppingTask" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -182,11 +191,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.DbManagerTestSuite.testSelectUsersAndPosts" />
+        <item itemvalue="JUnit.DbManagerTestSuite.testSelectUsers" />
+        <item itemvalue="JUnit.DbManagerTestSuite.testConnect" />
         <item itemvalue="JUnit.BigmacTestSuite.testPizzaNew" />
         <item itemvalue="JUnit.TaskFactoryTestSuite" />
-        <item itemvalue="JUnit.TaskFactoryTestSuite.testFactoryPaintingTask" />
-        <item itemvalue="JUnit.TaskFactoryTestSuite.testFactoryShoppingTask" />
-        <item itemvalue="JUnit.ShapeFactoryTestSuite" />
       </list>
     </recent_temporary>
   </component>
@@ -230,7 +239,11 @@
       <workItem from="1564074862355" duration="7593000" />
       <workItem from="1564132638457" duration="4423000" />
       <workItem from="1564388154472" duration="15495000" />
-      <workItem from="1564473400488" duration="4374000" />
+      <workItem from="1564473400488" duration="5882000" />
+      <workItem from="1564560970363" duration="1907000" />
+      <workItem from="1564578044575" duration="1272000" />
+      <workItem from="1564661046683" duration="1373000" />
+      <workItem from="1565001800128" duration="7673000" />
     </task>
     <servers />
   </component>
