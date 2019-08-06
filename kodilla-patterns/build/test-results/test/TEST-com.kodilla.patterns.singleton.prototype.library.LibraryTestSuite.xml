@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.kodilla.patterns.singleton.prototype.library.LibraryTestSuite" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-08-06T10:07:36" hostname="XTBK-2670" time="0.003">
+  <properties/>
+  <testcase name="testGetBooks" classname="com.kodilla.patterns.singleton.prototype.library.LibraryTestSuite" time="0.003"/>
+  <system-out><![CDATA[Library 1
+Library 2
+Library 3
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

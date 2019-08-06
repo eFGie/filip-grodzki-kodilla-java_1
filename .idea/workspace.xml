@@ -6,11 +6,42 @@
       <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/jarAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/vcs-1/gc.properties(1)" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/com.kodilla.KodillaCourseApplicationTests.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/com.kodilla.KodillaCourseApplicationTests.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/com.kodilla.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/packages/com.kodilla.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-com.kodilla.KodillaCourseApplicationTests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/TEST-com.kodilla.KodillaCourseApplicationTests.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kodilla-spring/build/classes/java/main/com/kodilla/spring/library/Library.class" beforeDir="false" afterPath="$PROJECT_DIR$/kodilla-spring/build/classes/java/main/com/kodilla/spring/library/Library.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kodilla-spring/build/classes/java/main/com/kodilla/spring/library/LibraryConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/kodilla-spring/build/classes/java/main/com/kodilla/spring/library/LibraryConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kodilla-spring/build/classes/java/main/com/kodilla/spring/library/LibraryDbController.class" beforeDir="false" afterPath="$PROJECT_DIR$/kodilla-spring/build/classes/java/main/com/kodilla/spring/library/LibraryDbController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kodilla-spring/build/classes/java/test/com/kodilla/spring/library/LibraryTestSuite.class" beforeDir="false" afterPath="$PROJECT_DIR$/kodilla-spring/build/classes/java/test/com/kodilla/spring/library/LibraryTestSuite.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kodilla-spring/build/libs/kodilla-spring-0.0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/kodilla-spring/build/libs/kodilla-spring-0.0.1-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kodilla-spring/build/reports/tests/test/classes/com.kodilla.spring.SpringRunnerTestSuite.html" beforeDir="false" afterPath="$PROJECT_DIR$/kodilla-spring/build/reports/tests/test/classes/com.kodilla.spring.SpringRunnerTestSuite.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kodilla-spring/build/reports/tests/test/classes/com.kodilla.spring.calculator.CalculatorTestSuite.html" beforeDir="false" afterPath="$PROJECT_DIR$/kodilla-spring/build/reports/tests/test/classes/com.kodilla.spring.calculator.CalculatorTestSuite.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kodilla-spring/build/reports/tests/test/classes/com.kodilla.spring.forum.ForumUserTestSuite.html" beforeDir="false" afterPath="$PROJECT_DIR$/kodilla-spring/build/reports/tests/test/classes/com.kodilla.spring.forum.ForumUserTestSuite.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kodilla-spring/build/reports/tests/test/classes/com.kodilla.spring.library.LibraryTestSuite.html" beforeDir="false" afterPath="$PROJECT_DIR$/kodilla-spring/build/reports/tests/test/classes/com.kodilla.spring.library.LibraryTestSuite.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kodilla-spring/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/kodilla-spring/build/reports/tests/test/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kodilla-spring/build/reports/tests/test/packages/com.kodilla.spring.calculator.html" beforeDir="false" afterPath="$PROJECT_DIR$/kodilla-spring/build/reports/tests/test/packages/com.kodilla.spring.calculator.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kodilla-spring/build/reports/tests/test/packages/com.kodilla.spring.forum.html" beforeDir="false" afterPath="$PROJECT_DIR$/kodilla-spring/build/reports/tests/test/packages/com.kodilla.spring.forum.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kodilla-spring/build/reports/tests/test/packages/com.kodilla.spring.html" beforeDir="false" afterPath="$PROJECT_DIR$/kodilla-spring/build/reports/tests/test/packages/com.kodilla.spring.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kodilla-spring/build/reports/tests/test/packages/com.kodilla.spring.library.html" beforeDir="false" afterPath="$PROJECT_DIR$/kodilla-spring/build/reports/tests/test/packages/com.kodilla.spring.library.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kodilla-spring/build/test-results/test/TEST-com.kodilla.spring.SpringRunnerTestSuite.xml" beforeDir="false" afterPath="$PROJECT_DIR$/kodilla-spring/build/test-results/test/TEST-com.kodilla.spring.SpringRunnerTestSuite.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kodilla-spring/build/test-results/test/TEST-com.kodilla.spring.calculator.CalculatorTestSuite.xml" beforeDir="false" afterPath="$PROJECT_DIR$/kodilla-spring/build/test-results/test/TEST-com.kodilla.spring.calculator.CalculatorTestSuite.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kodilla-spring/build/test-results/test/TEST-com.kodilla.spring.forum.ForumUserTestSuite.xml" beforeDir="false" afterPath="$PROJECT_DIR$/kodilla-spring/build/test-results/test/TEST-com.kodilla.spring.forum.ForumUserTestSuite.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kodilla-spring/build/test-results/test/TEST-com.kodilla.spring.library.LibraryTestSuite.xml" beforeDir="false" afterPath="$PROJECT_DIR$/kodilla-spring/build/test-results/test/TEST-com.kodilla.spring.library.LibraryTestSuite.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kodilla-spring/build/test-results/test/binary/output.bin" beforeDir="false" afterPath="$PROJECT_DIR$/kodilla-spring/build/test-results/test/binary/output.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kodilla-spring/build/test-results/test/binary/output.bin.idx" beforeDir="false" afterPath="$PROJECT_DIR$/kodilla-spring/build/test-results/test/binary/output.bin.idx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kodilla-spring/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/kodilla-spring/build/test-results/test/binary/results.bin" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -20,6 +51,9 @@
   </component>
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/kodilla-hibernate">
       <ProjectState />
     </projectState>
     <projectState path="$PROJECT_DIR$/kodilla-spring-web">
@@ -175,6 +209,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="KodillaHibernateApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="kodilla-hibernate.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.kodilla.hibernate.KodillaHibernateApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="KodillaSpringWebApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="kodilla-spring-web.main" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.kodilla.kodilla.spring.web.KodillaSpringWebApplication" />
@@ -243,7 +284,8 @@
       <workItem from="1564560970363" duration="1907000" />
       <workItem from="1564578044575" duration="1272000" />
       <workItem from="1564661046683" duration="1373000" />
-      <workItem from="1565001800128" duration="7673000" />
+      <workItem from="1565001800128" duration="9383000" />
+      <workItem from="1565078187313" duration="5498000" />
     </task>
     <servers />
   </component>
