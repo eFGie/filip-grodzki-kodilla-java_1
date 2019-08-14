@@ -1,5 +1,6 @@
 package com.kodilla.hibernate.invoice.dao;
 
+import com.kodilla.hibernate.invoice.Invoice;
 import com.kodilla.hibernate.invoice.Item;
 import com.kodilla.hibernate.invoice.Product;
 import org.junit.Assert;
@@ -17,9 +18,9 @@ import java.util.Optional;
 @SpringBootTest
 public class InvoiceDaoTestSuite {
     @Autowired
-   // private InvoiceDao invoiceDao;
+    private InvoiceDao invoiceDao;
    //   private ProductDao productDao;
-     private ItemDao itemDao;
+   //  private ItemDao itemDao;
 
     @Test
     public void testInvoiceDaoSave() {
@@ -27,11 +28,22 @@ public class InvoiceDaoTestSuite {
         Product product1 = new Product("Product_ONE");
         Product product2 = new Product("Product_TWO");
 
+
         Item item1 = new Item( BigDecimal.valueOf(1.45),4,  BigDecimal.valueOf(51.51));
+        Item item2 = new Item( BigDecimal.valueOf(1.80),3,  BigDecimal.valueOf(141.51));
+
+        Invoice invoice = new Invoice("Invoice_one");
 
         item1.setProduct(product1);
+        item2.setProduct(product2);
 
-        itemDao.save(item1);
+        item1.setInvoice(invoice);
+        item2.setInvoice(invoice);
+
+        invoice.getItems().add(item1);
+        invoice.getItems().add(item2);
+
+        invoiceDao.save(invoice);
 
 
 

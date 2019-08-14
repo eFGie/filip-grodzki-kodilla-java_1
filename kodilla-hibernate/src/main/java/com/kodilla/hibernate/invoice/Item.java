@@ -16,17 +16,17 @@ public class    Item {
     private BigDecimal value;
 
   //  private List<Product> productList;
-  //  private Invoice invoice;
+    private Invoice invoice;
 
-  //  @ManyToOne
-  //  @JoinColumn(name = "INVOICE_ID")
-  //  public Invoice getInvoice() {
- //       return invoice;
-  //  }
+    @ManyToOne
+    @JoinColumn(name = "INVOICE_ID")
+    public Invoice getInvoice() {
+        return invoice;
+    }
 
-  //  public void setInvoice(Invoice invoice) {
-  //      this.invoice = invoice;
-  //  }
+    public void setInvoice(Invoice invoice) {
+       this.invoice = invoice;
+    }
 
     public Item() {
     }
