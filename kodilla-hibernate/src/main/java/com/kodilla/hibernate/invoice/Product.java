@@ -10,20 +10,20 @@ import java.util.List;
 public class Product {
     private int ID;
     private String name;
-    private Item item;
+    private List<Item> itemList;
 
     @OneToMany (
             targetEntity = Item.class,
-            mappedBy = "Product",
+            mappedBy = "product",
             cascade =  CascadeType.ALL,
             fetch = FetchType.LAZY
     )
-    public Item getItem() {
-        return item;
+    public List<Item> getItemList() {
+        return itemList;
     }
 
-    public void setItem(Item item) {
-        this.item = item;
+    public void setItemList(List<Item> itemList) {
+        this.itemList = itemList;
     }
 
     public Product() {
