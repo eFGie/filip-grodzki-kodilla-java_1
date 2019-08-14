@@ -1,6 +1,7 @@
 package com.kodilla.hibernate.invoice;
 
 import com.sun.istack.internal.NotNull;
+import org.aspectj.weaver.bcel.BcelPerClauseAspectAdder;
 
 import javax.persistence.*;
 import java.math.BigDecimal;
@@ -18,7 +19,7 @@ public class    Item {
   //  private List<Product> productList;
     private Invoice invoice;
 
-    @ManyToOne
+    @ManyToOne(cascade = CascadeType.ALL)
     @JoinColumn(name = "INVOICE_ID")
     public Invoice getInvoice() {
         return invoice;
@@ -46,7 +47,7 @@ public class    Item {
     }
 
 
-    @ManyToOne
+    @ManyToOne(cascade = CascadeType.ALL)
     @JoinColumn(name = "PRODUCT_ID")
     public Product getProduct() {
         return product;
