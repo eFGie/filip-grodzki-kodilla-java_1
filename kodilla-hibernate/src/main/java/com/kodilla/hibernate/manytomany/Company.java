@@ -7,6 +7,11 @@ import javax.persistence.*;
 import java.util.ArrayList;
 import java.util.List;
 
+@NamedQuery(
+        name = "Company.retrieveCompanyByThreeLetters",
+        query = "FROM Company WHERE SUBSTRING(name,1,3) = :LETTERS"
+)
+
 @Entity
 @Table(name = "COMPANIES")
 public class Company {
